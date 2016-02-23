@@ -1,0 +1,73 @@
+body{
+	background: #0956BD;
+	}
+
+
+div{
+	opacity: 0;
+	
+}
+
+div:hover{
+	opacity: 1;
+}
+
+a {
+	text-decoration: underline;
+	text-decoration-color: #FFE900;
+	color: #0956BD;
+}
+
+
+a:hover {
+	text-decoration: none;
+	color: #FFE900;
+}
+
+
+#landing {
+	text-align: justify center;
+	font-size: 48pt;
+	margin-left: 190px;
+	margin-right: 190px;
+	margin-top: -5px;
+	line-height: 73pt;
+	color: #FFE900;
+
+}
+
+
+#first{
+	color: #FFE900;
+	background: #FFE900;
+
+
+}
+
+#first:hover{
+	color: #FFE900;
+	background: #0956BD;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+h1{
+	font-family: Avenir;
+	font-weight: lighter;
+	text-align: center;
+	color: white;
+
+}
+
+
+p{
+	text-align: justify;
+	margin-left: 121.5px;
+	margin-right: 121.5px;
+	font-size: 15pt;
+	line-height: 17pt;
+	font-family: Baskerville;
+	color: white;
+
+}
