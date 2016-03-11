@@ -1,0 +1,116 @@
+body{
+	background: #e5e1d5;
+	
+	
+}
+
+p{
+	position: absolute;
+	margin-left: 10px; 
+	margin-bottom: 20px;
+	bottom: 0;
+	font-size: 9pt;
+	font-family: helvetica;
+	font-weight: bolder;
+	color: #3b3d32;
+}
+
+
+.square{	
+	background-color: #3b3d32;
+	width: 20px;
+	height: 60px;
+	display: inline-block;
+	position: relative;
+
+	
+}
+
+
+.group{
+	position: absolute;
+	width: 164px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 47vh;
+	left: 43vw;
+}
+
+#one:hover{
+	background-color: navy;
+	cursor: crosshair;
+	height: 90px;
+
+}
+
+#two:hover{
+	background-color: darkgreen;
+	cursor: crosshair;
+	height: 100px;
+	
+}
+
+#three:hover{
+	background-color: #CFA708;
+	cursor: crosshair;
+	height: 110px;
+	
+}
+
+#four:hover{
+	background-color: maroon;
+	cursor: crosshair;
+	height: 120px;
+	
+}
+
+#five:hover{
+	background-color: #E86800;
+	cursor: crosshair;
+	height: 130px;
+	
+}
+
+#six:hover{
+	background-color: #3B0452;
+	cursor: crosshair;
+	height: 140px;
+	
+}
+
+#seven:hover{
+	background-color: white;
+	cursor: crosshair;
+	height: 150px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
