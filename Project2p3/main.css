@@ -1,0 +1,333 @@
+body{
+	background: black;
+}
+
+@font-face{
+		font-family: 'bebas';
+		src: url('BEBAS___.ttf');
+	}
+
+p{
+	color: white;
+	font-family: bebas;
+	font-size: 7px;
+	position: absolute;
+	margin-top: 0;
+	text-align: justify;
+	line-height: 9px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 45vw;
+	padding-right: 45vw;
+	margin-top: 100px;
+
+}
+
+
+#lobotomy{
+	color: blue;	
+}
+
+
+
+/*
+THE WHAT SPANS*/
+.what{
+	animation-name: whatblur;
+	animation-duration: 6s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes whatblur {
+    0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(5px);}
+    100% { -webkit-filter: blur(0px);}
+}
+#what{
+	animation-name: whatop;
+	animation-duration: 6s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes whatop {
+  0%, 100% {opacity: 1;}
+  50% {opacity: .1;}
+}
+
+.what:hover, #what:hover{
+	cursor: crosshair;, auto;
+}
+
+.what:active, #what:active{
+	animation-name: stopwhatblur;
+	font-size: 40px;
+	line-height: 50px;
+	margin-left: 30vw;
+	margin-right: 30vw;
+	z-index: 10;
+}
+@keyframes stopwhatblur{
+	0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(0px);}
+    100% { -webkit-filter: blur(0px);}
+}
+
+
+
+
+
+/*THE WHERE SPANS*/
+#where{
+	animation-name: whereop;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes whereop {
+  0%, 100% {opacity: .1;}
+  50% {opacity: 1;}
+}
+.where{
+	animation-name: whereblur;
+	animation-duration: 15s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes whereblur {
+    0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(8px);}
+    100% { -webkit-filter: blur(0px);}
+}
+.where:hover, #where:hover{
+	cursor: crosshair;, auto;
+}
+
+.where:active, #where:active{
+	animation-name: stopwhereblur;
+	font-size: 40px;
+	line-height: 50px;
+}
+@keyframes stopwhereblur{
+	0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(0px);}
+    100% { -webkit-filter: blur(0px);}
+}
+
+
+
+
+
+/*THE WHEN SPANS*/
+#when{
+	animation-name: whenop;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes whenop {
+  0%, 100% {opacity: .2;}
+  50% {opacity: .6;}
+}
+.when{
+	animation-name: whenblur;
+	animation-duration: 8s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes whenblur {
+    0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(4px);}
+    100% { -webkit-filter: blur(0px);}
+}
+.when:hover, #when:hover{
+	cursor: crosshair;, auto;
+}
+
+.when:active, #when:active{
+	animation-name: stopwhenblur;
+	font-size: 40px;
+	line-height: 50px;
+}
+@keyframes stopwhenblur{
+	0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(0px);}
+    100% { -webkit-filter: blur(0px);}
+}
+
+
+/*
+THE FIRST SPANS*/
+#first{
+	animation-name: firstop;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes firstop {
+  0%, 100% {opacity: .1;}
+  50% {opacity: 1;}
+}
+.first{
+	animation-name: firstblur;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes firstblur {
+    0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(7px);}
+    100% { -webkit-filter: blur(0px);}
+}
+.first:hover, #first:hover{
+	cursor: crosshair;, auto;
+}
+
+.first:active, #first:active{
+	animation-name: stopfirstblur;
+	font-size: 40px;
+	line-height: 50px;
+}
+@keyframes stopfirstblur{
+	0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(0px);}
+    100% { -webkit-filter: blur(0px);}
+}
+
+
+
+
+/*THE SECOND SPANS*/
+#second{
+	animation-name: secondop;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes secondop {
+  0%, 100% {opacity: .2;}
+  50% {opacity: 1;}
+}
+.second{
+	animation-name: secondblur;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes secondblur {
+    0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(12px);}
+    100% { -webkit-filter: blur(0px);}
+}
+.second:hover, #second:hover{
+	cursor: crosshair;, auto;
+}
+
+.second:active, #second:active{
+	animation-name: stopsecondblur;
+	font-size: 40px;
+	line-height: 50px;
+	opacity: 1;
+}
+@keyframes stopsecondblur{
+	0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(0px);}
+    100% { -webkit-filter: blur(0px);}
+}
+
+
+
+
+/*THE THIRD SPANS*/
+#third{
+	animation-name: thirdop;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes thirdop {
+  0%, 100% {opacity: .1;}
+  50% {opacity: 1;}
+}
+.third{
+	animation-name: secondblur;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+@keyframes thirdblur {
+    0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(2px);}
+    100% { -webkit-filter: blur(0px);}
+}
+.third:hover, #third:hover{
+	cursor: crosshair;, auto;
+}
+
+.third:active, #third:active{
+	animation-name: stopthirdblur;
+	font-size: 40px;
+	line-height: 50px;
+	opacity: 1;
+}
+@keyframes stopthirdblur{
+	0% { -webkit-filter: blur(0px);}
+    50% { -webkit-filter: blur(0px);}
+    100% { -webkit-filter: blur(0px);}
+}
+
+
+
+
+
+
+
+
+
