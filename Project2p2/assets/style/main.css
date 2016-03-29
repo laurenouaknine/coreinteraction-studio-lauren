@@ -2,6 +2,11 @@ body{
 	background: black;
 }
 
+@font-face{
+		font-family: 'bebas';
+		src: url('assets/style/BEBAS___.ttf');
+	}
+
 p{
 	color: white;
 	font-family: bebas;
