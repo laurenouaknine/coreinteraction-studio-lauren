@@ -1,6 +1,6 @@
 body{
-	background: white;
-	margin: 0;
+background-image: url("animation.gif");
+margin: 0;
 }
 
 @font-face{
@@ -20,44 +20,55 @@ p{
 
 
 
-#lobotomy, .dash {
-	color: yellow;
-}
-
-#lobotomy:hover{
-	cursor: pointer;
-	color: pink;
-}
-
-
 div{
-	height: 10vw;
+	height: 84vh;
 	background: black;
 	position: absolute;
-	color: yellow;
+	color: white;
 	font-family: helvetica;
 	font-size: .75vw;
 	line-height: 2vw;
 	z-index: 12;
-	margin-left: 55vw;
-	margin-right: 20vw;
-	margin-top: 13vw;
-	padding-right: 40vw;
+	margin-top: 14vw;
+	padding-right: 50vw;
 	padding-left: 3vw;
 	padding-top: 1vw;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: left;
 	display: none;
+
 	
 }
 
 
+
+
+@font-face{
+		font-family: 'caslon';
+		src: url('caslon.otf');
+	}
+
+
 .drop{
-	font-size: 1vw;
-	line-height: 1.5vw;
-	margin-right: 2vw;
+	font-family: caslon;
+	font-size: 1.75vw;
+	line-height: 2.3vw;
+	margin-right: 5vw;
+	margin-left: 3vw;
 	margin-top: 1vw;
+	margin-bottom: 2vw;
+	padding-left: 4vw;
+	text-align: left;
+	
+
+}
 
 
+.box{
+	margin-right: 0;
+	position: absolute;
+	z-index: 20;
 }
 
 
@@ -163,15 +174,19 @@ THE FIRST SPANS*/
 }
 
 
+
+
 .whole{
-	font-size: 5.5vw;
-	line-height: 6.5vw;
+	font-size: 5vw;
+	line-height: 6.2vw;
 	z-index: 10;
 	color: white;
 	position: fixed;
 	margin-top: 3vh;
-	margin-left: 3vw;
-	margin-right: 3vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	opacity: .1;
+	overflow: hidden;
 	
 }
 
@@ -192,6 +207,20 @@ THE FIRST SPANS*/
 	-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
     -moz-column-gap: 0px; /* Firefox */
     column-gap: 0px;
+}
+
+#lobotomy, .dash {
+	color: yellow;
+}
+
+/*#lobotomy:hover{
+	cursor: pointer;
+	opacity: 1;
+}*/
+
+.whole:hover{
+	opacity: 1;
+	cursor: crosshair;
 }
 
 
