@@ -1,0 +1,341 @@
+body{
+	background: #808080;
+}
+
+
+@font-face{
+	font-family: ugo;
+	src: url(UGO-COLOR.ttf);
+}
+
+
+#is-hidden {
+	opacity: 0 !important;
+}
+
+
+.is-hidden{
+	opacity: 0 !important;
+}
+
+
+.username-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -60px;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,.125);
+  opacity: 1;
+  transition: opacity .2s;
+  font-family: ugo;
+  z-index: 10;
+}
+
+.username-form label {
+  display: block;
+  margin-bottom: 10px;
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BOX*/
+
+#big-box {
+	border: 1px solid white;
+	
+}
+
+.shapes {
+	border: 1px solid white;
+	background: #808080;
+	margin-top: 37.5vh;
+	margin-left: 59vw;
+	margin-bottom: -2vh;
+	display: inline-block;
+	position: relative;
+	z-index: 9;
+	overflow-y: visible;
+
+
+}
+
+
+
+.canvas{
+	border: 1px solid white;
+	margin: 1vw;
+	width: 98vw;
+	height: 95vh;
+	display: inline-block;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+.canvas .shape {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.shape-options {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SQUARES*/
+
+.square{
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	margin: 1vw;
+}
+
+
+/*CIRCLES*/
+
+
+.circle{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: white;
+	display: inline-block;
+	margin: 1vw;
+}
+
+
+/*SIZES FOR SQUARES AND CIRCLES*/
+
+.small{
+	height: 25px;
+	width: 25px;
+}
+
+.medium{
+	height: 50px;
+	width: 50px;
+}
+
+.big{
+	height: 100px;
+	width: 100px;
+}
+
+
+
+/*TRIANGLES*/
+
+	.triangle{
+		margin: 1vw;
+		
+	}
+
+
+	/*BIG*/
+
+	.bigt{
+		width: 0;
+		height: 0;
+		border-bottom: 100px solid white;
+		border-right: 100px solid transparent;
+		display: inline-block;
+	}
+
+	/*MEDIUM*/
+	.mediumt{
+		width: 0;
+		height: 0;
+		border-bottom: 50px solid white;
+		border-right: 50px solid transparent;
+		display: inline-block;
+	}
+
+	/*SMALL*/
+	.smallt{
+		width: 0;
+		height: 0;
+		border-bottom: 25px solid white;
+		border-right: 25px solid transparent;
+		display: inline-block;
+	}
+
+
+
+
+/*HEXAGONS*/
+	
+
+	/*BIG*/
+
+	.bigh {
+	  position: relative;
+	  width: 100px; 
+	  height: 57.74px;
+	  background-color: white;
+	  margin: 28.87px 0;
+	  display: inline-block;
+	  margin: 1vw;
+	}
+
+	.bigh:before,
+	.bigh:after {
+	  content: "";
+	  position: absolute;
+	  width: 0;
+	  border-left: 50px solid transparent;
+	  border-right: 50px solid transparent;
+
+	}
+
+	.bigh:before {
+	  bottom: 100%;
+	  border-bottom: 28.87px solid white;
+
+	}
+
+	.bigh:after {
+	  top: 100%;
+	  width: 0;
+	  border-top: 28.87px solid white;
+
+	}
+
+
+	/*MEDIUM*/
+	.mediumh {
+	  position: relative;
+	  width: 50px; 
+	  height: 28.87px;
+	  background-color: white;
+	  margin: 14.43px 0;
+	  display: inline-block;
+	  margin: 1vw;
+	}
+
+	.mediumh:before,
+	.mediumh:after {
+	  content: "";
+	  position: absolute;
+	  width: 0;
+	  border-left: 25px solid transparent;
+	  border-right: 25px solid transparent;
+	}
+
+	.mediumh:before {
+	  bottom: 100%;
+	  border-bottom: 14.43px solid white;
+	}
+
+	.mediumh:after {
+	  top: 100%;
+	  width: 0;
+	  border-top: 14.43px solid white;
+	}
+
+
+	/*SMALL*/
+
+	.smallh {
+	  position: relative;
+	  width: 25px; 
+	  height: 14.43px;
+	  background-color: white;
+	  margin: 7.22px 0;
+	  display: inline-block;
+	  margin: 1vw;
+	}
+
+	.smallh:before,
+	.smallh:after {
+	  content: "";
+	  position: absolute;
+	  width: 0;
+	  border-left: 12.5px solid transparent;
+	  border-right: 12.5px solid transparent;
+	}
+
+	.smallh:before {
+	  bottom: 100%;
+	  border-bottom: 7.22px solid white;
+	}
+
+	.smallh:after {
+	  top: 100%;
+	  width: 0;
+	  border-top: 7.22px solid white;
+	}
+
+	/* RECTANGLE */
+
+
+	.rectangle{
+		height: 50px;
+		width: 200px;
+		background-color: white;
+		position: relative;
+		display: inline-block;
+		margin: 4vw;
+
+
+	}
+
+
+
+	@media all and (max-width: 700px) {
+  .shapes { display: none; }
+}
+
+
