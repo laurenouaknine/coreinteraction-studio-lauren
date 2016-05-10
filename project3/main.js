@@ -442,6 +442,8 @@ window.onload = function (){
 	});
 
 
+
+
 // Actually handle user input on our chat options
 // This is where we're tying particular values to 
 // colors in messages we send.
@@ -496,9 +498,6 @@ window.onload = function (){
 	$('#rectangle').click(function () {
 	  sendMessage(12);
 	});
-
-
-
 
 
 
@@ -722,8 +721,16 @@ window.onload = function (){
 
 	});
 
-}//end of window onload
+	$(".shapes").draggable();
+	$( ".shapes" ).resizable();
 
+	Mousetrap.bind(['enter'],
+		function(){ window.print();
+
+		});
+
+
+}//end of window onload
 
 
 

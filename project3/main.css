@@ -1,5 +1,9 @@
 body{
-	background: #808080;
+	background: #aca5ad;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -10,12 +14,12 @@ body{
 
 
 #is-hidden {
-	opacity: 0 !important;
+	display: none !important;
 }
 
 
 .is-hidden{
-	opacity: 0 !important;
+	display: none !important;
 }
 
 
@@ -29,18 +33,31 @@ body{
   height: 100px;
   padding: 20px;
   background: white;
-  box-shadow: 0 0 20px rgba(0,0,0,.125);
+  /*box-shadow: 0 0 20px rgba(0,0,0,.125);*/
   opacity: 1;
   transition: opacity .2s;
   font-family: ugo;
   z-index: 10;
+  border-radius: 5px;
 }
 
 .username-form label {
+  color: #aca5ad;
   display: block;
   margin-bottom: 10px;
   z-index: 10;
 }
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: #aca5ad;
+    color: white; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
 
 
 
@@ -68,38 +85,42 @@ body{
 
 /*BOX*/
 
-#big-box {
+/*#big-box {
 	border: 1px solid white;
 	
-}
+}*/
 
 .shapes {
 	border: 1px solid white;
-	background: #808080;
+	background: #928c93;
 	margin-top: 37.5vh;
 	margin-left: 59vw;
 	margin-bottom: -2vh;
 	display: inline-block;
 	position: relative;
-	z-index: 9;
+	z-index: 12;
 	overflow-y: visible;
+	border-radius: 5px;
+	opacity: .9;
+}
 
-
+.shapes:hover{
+	cursor: pointer;
 }
 
 
 
 .canvas{
-	border: 1px solid white;
-	margin: 1vw;
-	width: 98vw;
-	height: 95vh;
+/*	border: 1px solid white;*/
+	width: 100%;
+	height: 100%;
 	display: inline-block;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
 }
 
 .canvas:hover{
@@ -110,17 +131,18 @@ body{
 
 .canvas .shape {
 	position: absolute;
-	top: 100px;
-	left: 100px;
+	margin-top: -10px;
+	margin-left: -10px;
 }
 
-.shape-options {
-
-}
 
 .shape{
 	cursor: pointer;
+	-webkit-user-select: none;
+
 }
+
+
 
 
 
@@ -146,7 +168,8 @@ body{
 	background-color: white;
 	position: relative;
 	display: inline-block;
-	margin: 1vw;
+	/*margin: 1vw;*/
+	user-select: none;
 }
 
 
@@ -159,7 +182,7 @@ body{
 	border-radius: 50%;
 	background-color: white;
 	display: inline-block;
-	margin: 1vw;
+	/*margin: 1vw;*/
 }
 
 
@@ -185,7 +208,7 @@ body{
 /*TRIANGLES*/
 
 	.triangle{
-		margin: 1vw;
+		/*margin: 1vw;*/
 		
 	}
 
@@ -233,7 +256,7 @@ body{
 	  background-color: white;
 	  margin: 28.87px 0;
 	  display: inline-block;
-	  margin: 1vw;
+	  /*margin: 1vw;*/
 	}
 
 	.bigh:before,
@@ -268,7 +291,7 @@ body{
 	  background-color: white;
 	  margin: 14.43px 0;
 	  display: inline-block;
-	  margin: 1vw;
+	  /*margin: 1vw;*/
 	}
 
 	.mediumh:before,
@@ -301,7 +324,7 @@ body{
 	  background-color: white;
 	  margin: 7.22px 0;
 	  display: inline-block;
-	  margin: 1vw;
+	  /*margin: 1vw;*/
 	}
 
 	.smallh:before,
@@ -333,7 +356,7 @@ body{
 		background-color: white;
 		position: relative;
 		display: inline-block;
-		margin: 4vw;
+		/*margin: 4vw;*/
 
 
 	}
